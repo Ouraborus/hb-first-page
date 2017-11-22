@@ -1,0 +1,8 @@
+.transition{
+	transition: 210ms ease-in;
+	transform: scale(1); 
+	&:hover{
+		transition: 350ms ease-in;
+		transform: scale(1.2); 
+	}
+}
