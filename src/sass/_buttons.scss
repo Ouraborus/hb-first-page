@@ -3,5 +3,30 @@
 	align-content: center;
 	text-align: center;
 	font-size: 55px;
-	padding-top: 15px;
+	padding-top: 10%;
+}
+.git-icon{
+	padding-top: 25%;
+	font-size: 95px;
+}
+@media(max-width: 730px){
+	.button{
+		padding: 10%;
+	}
+	.git-icon{
+		padding-top: 25%;
+		font-size: 90px;
+	}
+}
+.box{
+	display: none;
+	max-width: 100vh;
+	max-height: 100vh;
+	width: 100%;
+	height: 100%;
+}
+
+.git-icon:hover .box{
+	display: grid;
+	z-index: 100;
 }

@@ -19,7 +19,7 @@
       "properties": {
         "ligatures": "plus, add",
         "name": "plus",
-        "order": 5,
+        "order": 7,
         "id": 267,
         "prevSize": 32,
         "code": 59914
@@ -47,7 +47,7 @@
       "properties": {
         "ligatures": "github, brand40",
         "name": "github",
-        "order": 3,
+        "order": 6,
         "id": 433,
         "prevSize": 32,
         "code": 60080
@@ -74,7 +74,7 @@
       "properties": {
         "ligatures": "linkedin, brand64",
         "name": "linkedin",
-        "order": 2,
+        "order": 5,
         "id": 458,
         "prevSize": 32,
         "code": 60105
@@ -96,9 +96,7 @@
     "fontPref": {
       "prefix": "icon-",
       "metadata": {
-        "fontFamily": "icomoon",
-        "majorVersion": 1,
-        "minorVersion": 0
+        "fontFamily": "icomoon"
       },
       "metrics": {
         "emSize": 1024,
@@ -113,11 +111,15 @@
       "useClassSelector": true,
       "color": 0,
       "bgColor": 16777215,
-      "classSelector": ".icon"
+      "classSelector": ".icon",
+      "autoHost": false
     },
     "historySize": 50,
     "showCodes": true,
     "gridSize": 16,
-    "showLiga": false
+    "showGrid": false,
+    "quickUsageToken": {
+      "UntitledProject": "OTFjNGE2MWExMTAxMGFlYWQ3MmY1MWU1YmVhNTM3YTAjMSMxNTExMzg2MzUxIyMj"
+    }
   }
 }
