@@ -34,12 +34,12 @@ iframe{
 } 
 .area-1{
 	grid-area: 1 / 1 / 9 / 5;
-	background-color: #2C3E50;
+	background-color: $background;
 }
 .area-2{
 	color: $text-color;	
 	grid-area: 1 / 5 / 5 / 9;
-	background-color: #2C3E50;
+	background-color: $background;
 }
 .area-3{
 	grid-area: 5 / 7 / 9 / 9;

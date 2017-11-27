@@ -1,6 +1,4 @@
-window.onload = () =>{ 
-    startEvents();
-};
+window.onload = startEvents;
 
 function startEvents() {
     const plusIcon = document.getElementsByClassName('icon-plus')[0];

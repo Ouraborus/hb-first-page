@@ -4,7 +4,7 @@
 	background-color: $text-color;
 }
 .bar{
-	background-color: #2C3E50;
+	background-color: $background;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -24,7 +24,6 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-
 }
 .img-1{
 	background-image: url('../../src/img/parallax-1.jpg');	
@@ -35,7 +34,7 @@
 .title{
 	position: relative;
 	top: 200px;
-	font-size: 75px;
+	font-size: 50px;
 	color: white;
 	text-shadow: 3px 3px 13px black
 }
